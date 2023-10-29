@@ -6,6 +6,7 @@ import Form from "./src/Form";
 import MainPage from "./src/ReactNativePapers/MainPage";
 import List from "./src/List";
 import Table from "./src/ReactNativePapers/Table"
+import CustomButtons from "./src/CustomButtons"
 
 export default function App() {
   return (
@@ -13,9 +14,10 @@ export default function App() {
    
       {/* <MainPage/> */}
       {/* <List/> */}
-      <Table/>
-      <Text>Below is the demo for image</Text>
+      {/* <Table/>/ */}
+      {/* <Text>Below is the demo for image</Text> */}
       {/* <Image source={require('./')} /> */}
+      <CustomButtons/>
     </View>
   );
 }
